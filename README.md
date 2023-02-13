@@ -1,4 +1,4 @@
-# CS361-TextMicroservice
+# Heading1 CS361-TextMicroservice
 
 Communication Contract:
 
@@ -16,4 +16,5 @@ Receive Data:
 
 
 UML Diagram:
+
 ![UML class](https://user-images.githubusercontent.com/98556557/218412025-4ce33929-2cfc-44e3-8a90-86ab5efa00c1.png)
