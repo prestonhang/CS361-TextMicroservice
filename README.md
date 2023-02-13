@@ -12,7 +12,7 @@ Be sure there are no additional lines.
 Then call the program. While this program is active, it will search the provided file for the key phrase to begin servicing data.
 The program will search for 20 seconds before exiting.
 
-    Example call:
+Example call:
         python3 microservice.py
 
 #### Receive Data:
@@ -23,7 +23,7 @@ Between 1-20 lines of randomly generated Latin text
 
 
 ### UML Diagram:
-    This diagram showcases how data is requested and received.
+   This diagram showcases how data is requested and received.
         1. User provides text file with key phase.
         2. Microservice checks text file for key phrase. 
         3. If key phrase "run" is found, insert new text into file
