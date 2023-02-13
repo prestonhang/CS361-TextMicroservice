@@ -12,3 +12,8 @@ Request Data:
 
 Receive Data:
     Once key phrase has been found, microservice will rewrite the provided text file with data
+
+
+
+UML Diagram:
+![UML class](https://user-images.githubusercontent.com/98556557/218412025-4ce33929-2cfc-44e3-8a90-86ab5efa00c1.png)
