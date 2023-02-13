@@ -1,4 +1,4 @@
-# Heading1 CS361-TextMicroservice
+# CS361-TextMicroservice
 
 Communication Contract:
 
