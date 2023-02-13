@@ -4,7 +4,7 @@ import random
 
 def main():
     filename = "test.txt"                       #declare file you wish to insert latin text
-    count = 0                                   #initialize timer for deactivation
+    count = 10                                   #initialize timer for deactivation
     print("Microservice Initiated")
     while(True):
         time.sleep(2)
@@ -22,15 +22,15 @@ def main():
             print("Sucessfully wrote Latin paragraph to file")
             print("---------------------------------------------------------")
             insert.close()
-            count = 0                           #reset timer
+            count = 10                           #reset timer
         else:                                   #if phase "run" was not found, initiate timeout countdown
-            if(count == 10):                    #if reached 10, exit microservice
+            if(count == 0):                    #if reached 10, exit microservice
                 print("No activity detected. Exiting Microservice")
                 file.close()
                 break
             else:
-                print("Listening for key phrase... Time until deactivation: ", 10-count)    #display time until deactivation
-                count += 1                                                                  #increment timer
+                print("Listening for key phrase... Time until deactivation: ", count)    #display time until deactivation
+                count -= 1                                                                  #increment timer
         file.close()
 
 main()
