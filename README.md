@@ -23,7 +23,7 @@
 
 ### UML Diagram:
     This diagram showcases how data is requested and received.
-        1. When microservice is running, user provides text file.
+        1. User provides text file with key phase.
         2. Microservice checks text file for key phrase. 
         3. If key phrase "run" is found, insert new text into file
         4. Else, continue searching for key phrase until timer expires
