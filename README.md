@@ -17,6 +17,8 @@
 
 #### Receive Data:
     Once key phrase has been found, microservice will rewrite the provided text file with new data
+    Data provided includes:
+        Between 1-20 lines of randomly generated Latin text
 
 
 
