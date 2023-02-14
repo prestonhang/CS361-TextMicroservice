@@ -27,6 +27,7 @@ Data provided includes:
 ---
 ### Notes:
 Installation of the python library "lorem" may be needed. To install this, in your directory of the microservice, type this command into the terminal:
+
         pip install lorem
 
 YouTube link: [https://www.youtube.com/watch?v=WCJWI8_5-kk](https://www.youtube.com/watch?v=WCJWI8_5-kk)
