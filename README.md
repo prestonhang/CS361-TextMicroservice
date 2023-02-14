@@ -25,7 +25,11 @@ Data provided includes:
     Between 1-20 lines of randomly generated Latin text
 
 ---
+### Notes:
+Installation of the python library "lorem" may be needed. To install this, in your directory of the microservice, type this command into the terminal:
+        pip install lorem
 
+---
 ### UML Diagram:
 This diagram showcases how data is requested and received.    
 1. User provides text file with key phase  
